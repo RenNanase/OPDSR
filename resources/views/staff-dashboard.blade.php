@@ -1,0 +1,18 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-white leading-tight">
+            {{ __('Staff Dashboard') }}
+        </h2>
+    </x-slot>
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-opd-primary overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 text-gray-900">
+                    {{ __("You're logged in as Staff!") }}
+                    <p class="mt-2 text-sm text-gray-600">Welcome to the OPD Statistic System {{ Auth::user()->name }} !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</x-app-layout>
