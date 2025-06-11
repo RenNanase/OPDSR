@@ -1,10 +1,10 @@
-# OPDinsight - Hospital Outpatient Department Management System
+OPDSR - Outpatient Department Statistic Record Management System
 
-OPDinsight is a comprehensive web-based management system designed for hospital Outpatient Departments (OPD) to efficiently track and manage consultant activities, patient statistics, and medical procedures.
+OPDSR is a comprehensive web-based management system designed for Hospital Outpatient Departments (OPD) to efficiently track and manage consultant activities, patient statistics, and medical procedures.
 
-## Features
+Features
 
-### Consultant Management
+Consultant Management
 - **Visiting Consultants**
   - Track visiting consultant schedules and activities
   - Record patient demographics and statistics
@@ -17,26 +17,26 @@ OPDinsight is a comprehensive web-based management system designed for hospital 
   - Record foreign patient information
   - Generate comprehensive reports
 
-### Patient Statistics
+- **Patient Statistics**
 - Detailed patient demographics tracking
 - Race distribution analysis
 - Gender-based statistics
 - New patient tracking
 - Foreign patient management
 
-### Medical Procedures
+Medical Procedures
 - Track procedures in New Wing
 - Track procedures in Old Wing
 - CTG (Cardiotocography) record management
 - Comprehensive procedure reporting
 
-### User Management
+User Management
 - Role-based access control
 - Staff and admin dashboards
 - Secure authentication system
 - User activity tracking
 
-## Technical Stack
+Technical Stack
 
 - **Framework**: Laravel 12
 - **Frontend**: 
@@ -46,7 +46,7 @@ OPDinsight is a comprehensive web-based management system designed for hospital 
 - **Database**: MySQL
 - **Authentication**: Laravel Breeze
 
-## Installation
+Installation
 
 1. Clone the repository
 ```bash
@@ -79,14 +79,14 @@ php artisan serve
 npm run dev
 ```
 
-## Usage
+Usage
 
 1. Access the system through your web browser
 2. Log in with your credentials
 3. Navigate through the dashboard to access different features
 4. Use the sidebar menu to switch between different modules
 
-## Security
+Security
 
 - Role-based access control
 - Secure password hashing
@@ -94,7 +94,7 @@ npm run dev
 - Input validation
 - SQL injection prevention
 
-## Contributing
+Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -102,10 +102,10 @@ npm run dev
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+License
 
 This project is proprietary software. All rights reserved.
 
-## Support
+Support
 
-For support, please contact the development team or raise an issue in the repository.
+For support, please contact me or raise an issue in the repository.
